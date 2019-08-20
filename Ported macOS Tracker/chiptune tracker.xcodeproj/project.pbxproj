@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A55613F22F33D7C0062358F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A55613E22F33D7C0062358F /* main.c */; };
+		0A55614722F33DC40062358F /* chip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A55614622F33DC40062358F /* chip.c */; };
+		0A55614922F33DCF0062358F /* gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A55614822F33DCF0062358F /* gui.c */; };
+		0A55619022F346C10062358F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A55618F22F346C10062358F /* SDL2.framework */; };
+		0A55619322F3473C0062358F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A55619222F3473C0062358F /* CoreFoundation.framework */; };
+		0A8F5ADE22F444C000E46148 /* libncurses.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F5ADA22F444C000E46148 /* libncurses.5.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0A8F5ADF22F444C000E46148 /* libcurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F5ADB22F444C000E46148 /* libcurses.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0A8F5AE022F444C000E46148 /* libncurses.5.4.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F5ADC22F444C000E46148 /* libncurses.5.4.tbd */; };
+		0A8F5AE122F444C000E46148 /* libncurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F5ADD22F444C000E46148 /* libncurses.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A55613922F33D7C0062358F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A55613B22F33D7C0062358F /* chiptune tracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "chiptune tracker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A55613E22F33D7C0062358F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A55614622F33DC40062358F /* chip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chip.c; sourceTree = "<group>"; };
+		0A55614822F33DCF0062358F /* gui.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gui.c; sourceTree = "<group>"; };
+		0A55614A22F33DD90062358F /* test2.song */ = {isa = PBXFileReference; lastKnownFileType = text; path = test2.song; sourceTree = "<group>"; };
+		0A55614B22F33E9B0062358F /* stuff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stuff.h; path = ../../../Downloads/tracker/stuff.h; sourceTree = "<group>"; };
+		0A55614C22F33EF70062358F /* packedformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = packedformat; sourceTree = "<group>"; };
+		0A55618F22F346C10062358F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		0A55619222F3473C0062358F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0A8F5ADA22F444C000E46148 /* libncurses.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.5.tbd; path = usr/lib/libncurses.5.tbd; sourceTree = SDKROOT; };
+		0A8F5ADB22F444C000E46148 /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
+		0A8F5ADC22F444C000E46148 /* libncurses.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.5.4.tbd; path = usr/lib/libncurses.5.4.tbd; sourceTree = SDKROOT; };
+		0A8F5ADD22F444C000E46148 /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A55613822F33D7C0062358F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F5ADE22F444C000E46148 /* libncurses.5.tbd in Frameworks */,
+				0A8F5ADF22F444C000E46148 /* libcurses.tbd in Frameworks */,
+				0A8F5AE022F444C000E46148 /* libncurses.5.4.tbd in Frameworks */,
+				0A8F5AE122F444C000E46148 /* libncurses.tbd in Frameworks */,
+				0A55619322F3473C0062358F /* CoreFoundation.framework in Frameworks */,
+				0A55619022F346C10062358F /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A55613222F33D7C0062358F = {
+			isa = PBXGroup;
+			children = (
+				0A55613D22F33D7C0062358F /* chiptune tracker */,
+				0A55613C22F33D7C0062358F /* Products */,
+				0A55619122F3473C0062358F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A55613C22F33D7C0062358F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A55613B22F33D7C0062358F /* chiptune tracker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A55613D22F33D7C0062358F /* chiptune tracker */ = {
+			isa = PBXGroup;
+			children = (
+				0A55618F22F346C10062358F /* SDL2.framework */,
+				0A55614C22F33EF70062358F /* packedformat */,
+				0A55614A22F33DD90062358F /* test2.song */,
+				0A55614822F33DCF0062358F /* gui.c */,
+				0A55614622F33DC40062358F /* chip.c */,
+				0A55613E22F33D7C0062358F /* main.c */,
+				0A55614B22F33E9B0062358F /* stuff.h */,
+			);
+			path = "chiptune tracker";
+			sourceTree = "<group>";
+		};
+		0A55619122F3473C0062358F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F5ADB22F444C000E46148 /* libcurses.tbd */,
+				0A8F5ADC22F444C000E46148 /* libncurses.5.4.tbd */,
+				0A8F5ADA22F444C000E46148 /* libncurses.5.tbd */,
+				0A8F5ADD22F444C000E46148 /* libncurses.tbd */,
+				0A55619222F3473C0062358F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A55613A22F33D7C0062358F /* chiptune tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A55614222F33D7C0062358F /* Build configuration list for PBXNativeTarget "chiptune tracker" */;
+			buildPhases = (
+				0A55613722F33D7C0062358F /* Sources */,
+				0A55613822F33D7C0062358F /* Frameworks */,
+				0A55613922F33D7C0062358F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chiptune tracker";
+			productName = "chiptune tracker";
+			productReference = 0A55613B22F33D7C0062358F /* chiptune tracker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A55613322F33D7C0062358F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Frédéric Druppel";
+				TargetAttributes = {
+					0A55613A22F33D7C0062358F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0A55613622F33D7C0062358F /* Build configuration list for PBXProject "chiptune tracker" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A55613222F33D7C0062358F;
+			productRefGroup = 0A55613C22F33D7C0062358F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A55613A22F33D7C0062358F /* chiptune tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A55613722F33D7C0062358F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A55614922F33DCF0062358F /* gui.c in Sources */,
+				0A55613F22F33D7C0062358F /* main.c in Sources */,
+				0A55614722F33DC40062358F /* chip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A55614022F33D7C0062358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A55614122F33D7C0062358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A55614322F33D7C0062358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y27BP52D3M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chiptune\\ tracker",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-lSDL2",
+					"sdl2-config",
+					"--",
+					cflags,
+					"--libs",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A55614422F33D7C0062358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y27BP52D3M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chiptune\\ tracker",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A55613622F33D7C0062358F /* Build configuration list for PBXProject "chiptune tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A55614022F33D7C0062358F /* Debug */,
+				0A55614122F33D7C0062358F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A55614222F33D7C0062358F /* Build configuration list for PBXNativeTarget "chiptune tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A55614322F33D7C0062358F /* Debug */,
+				0A55614422F33D7C0062358F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A55613322F33D7C0062358F /* Project object */;
+}

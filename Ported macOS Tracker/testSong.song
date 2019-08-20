@@ -1,0 +1,36 @@
+musicchip tune
+version 1
+
+songline 00 00 00 00 00 81 00 00 00
+songline 01 00 00 00 00 00 00 67 00
+songline 02 00 00 00 00 82 00 68 00
+songline 03 01 00 00 00 00 00 00 00
+songline 04 01 00 00 00 00 00 00 00
+songline 05 01 00 10 00 03 00 00 00
+songline 06 01 00 10 00 00 00 00 00
+songline 07 01 00 10 00 00 00 30 00
+songline 08 01 00 10 00 00 00 31 00
+songline 09 01 00 10 00 00 00 32 00
+
+trackline 01 00 0d 01 00 00 00 00
+trackline 01 06 0d 01 00 00 00 00
+trackline 01 08 19 01 00 00 00 00
+trackline 01 0a 0d 01 00 00 00 00
+trackline 01 0e 0d 01 76 80 00 00
+trackline 01 0f 00 00 76 80 00 00
+trackline 01 10 0d 01 00 00 00 00
+trackline 01 12 0d 01 00 00 00 00
+trackline 01 14 0d 01 00 00 00 00
+trackline 01 16 19 01 00 00 00 00
+trackline 01 1a 0d 01 00 00 00 00
+trackline 01 1c 0d 01 00 00 00 00
+trackline 01 1f 00 00 76 00 00 00
+
+instrumentline 01 00 77 03
+instrumentline 01 01 76 ff
+instrumentline 01 02 74 01
+instrumentline 01 03 77 02
+instrumentline 01 04 64 90
+instrumentline 01 05 2b 31
+instrumentline 01 06 6c a0
+instrumentline 01 07 66 f0
